@@ -6,7 +6,6 @@
         display: flex;
         align-items: center;
         gap: 21px;
-        height: 100vh;
     }
     
     .card-block button {
@@ -20,19 +19,31 @@
         border-radius: 10px;
     }
     .one {
+        height: 900px;
+        width: 178px;
         background-image: url(../../assets/image/one.svg);
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 10px;
+
     }
     .two {
+        height: 900px;
+        width: 178px;
         background-image: url(../../assets/image/two.svg);
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 10px;
+
     }
     .three {
+        height: 900px;
+        width: 178px;
         background-image: url(../../assets/image/three.svg);
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 10px;
+
     }
     .card-block p{
         display: flex;
@@ -48,4 +59,30 @@
         color: #FFFFFF;
         transform: rotate(-90deg);
     }
+
+    @media only screen and (max-width: 2560px) {
+        .card-block button {
+            height: 500px;
+            width: 158px;
+            border-radius: 10px;
+        }
+        .one {
+            width: 168px;
+            height: 550px;
+            border-radius: 10px;
+
+        }
+        .three {
+            width: 168px;
+            height: 550px;
+            border-radius: 10px;
+
+        }
+        .two {
+            width: 168px;
+            height: 550px;
+            border-radius: 10px;
+
+        }
+      }
 }
