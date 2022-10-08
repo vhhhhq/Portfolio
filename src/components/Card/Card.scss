@@ -1,0 +1,51 @@
+
+.card {
+    display: flex;
+
+    .section-card {
+        display: flex;
+        align-items: center;
+        gap: 21px;
+        height: 100vh;
+    }
+    
+    .card-block button {
+        display: flex;
+        height: 900px;
+        width: 178px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background: none;
+        border: none;
+        border-radius: 10px;
+    }
+    .one {
+        background-image: url(../../assets/image/one.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .two {
+        background-image: url(../../assets/image/two.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .three {
+        background-image: url(../../assets/image/three.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .card-block p{
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        width: 90vh;
+        height: 12vh;
+        font-family: 'Coolvetica', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 36px;
+        color: #FFFFFF;
+        transform: rotate(-90deg);
+    }
+}
